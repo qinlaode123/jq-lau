@@ -1,9 +1,7 @@
 # jq-lau
 jQuery多语言切换
 
-
 线上展示效果：http://jqlau.sjfaze.com/
-
 
 在jq-lau.js中：
 
@@ -11,8 +9,8 @@ jQuery多语言切换
 var language={
 //中文内容
 	zh:{
-		yan:'jq多语言', //对应一个自定义属性
-		haha:'语言',
+		yan:'jq多语言', 
+		haha:'语言',//对应一个自定义属性
 		youyou:'切换',
 	},
   //英文内容
@@ -22,10 +20,8 @@ var language={
 		youyou:'switch',
 	}
   
-  在index.html中：
+  在index.html中：     
   
-  
-  
-  <h1 data-lau="haha">语言</h1>  //添加自定义data-lau属性：属性名为在jq-lau.js定义好的language的 yan
-	<span data-lau='youyou'>切换</span>  //添加自定义data-lau属性：属性名为在jq-lau.js定义好的language的 haha
-	<script src="js/jq-lau.js"></script>  //添加自定义data-lau属性：属性名为在jq-lau.js定义好的language的 yoyou
+  <h1 data-lau="haha">语言</h1>  //添加自定义data-lau属性：属性名为在jq-lau.js定义好的language的 haha
+<span data-lau='youyou'>切换</span>  //添加自定义data-lau属性：属性名为在jq-lau.js定义好的language的 youyou
+
